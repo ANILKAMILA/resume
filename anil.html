@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AniL resume</title>
+    <style>
+    #my{
+    width:20px;
+    height:10px;
+    }
+    #ty{
+    border:2px solid black;
+    color:blue;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    width:100px;
+    height:40px;
+    background-color:skyblue;
+    border-radius:6px;
+    }
+</style>
+</head>
+
+<body>
+
+<a id="my" href="https://raw.githubusercontent.com/ANILKAMILA/anilkamila/master/Resume%20Template.zip">Link</a>
+<button id="ty" onclick="download()" >Download My Resume</button>
+<script>
+    function download(){
+    document.location.href = document.getElementById('my').href;
+    }
+</script>
+</body>
+</html>
